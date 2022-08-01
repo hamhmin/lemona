@@ -13,6 +13,7 @@ body{
     align-items: center;
     position: fixed;
     top: 0;
+    left: 0;
     background: #fff;
     z-index: 100;
 }
@@ -224,6 +225,8 @@ footer{
     align-items: center;
     color: #666;
     padding: 20px;
+    position: relative;
+    z-index: 100;
 }
 footer article{
     display: flex;
@@ -234,6 +237,7 @@ footer article{
 footer img{
     width: 234px;
     height: 32px;
+    margin-top: 20px;
 }
 footer p{
     font-size: 14px;
