@@ -125,13 +125,14 @@ height: 100%;
     height: 100%;
     padding: 20px;
     background: var(--main-color);
+    
+    word-break: keep-all;
 }
 #section02 .container article h2{
     margin-bottom: 5px;
 }
 #section02 .container article h3{
     margin-bottom: 30px;
-    word-break: keep-all;
 }
 #section02 .container article p{
     margin-bottom: 35px;
@@ -155,7 +156,6 @@ height: 100%;
 #section03 .container .col{
     width: 100%;
     height: 495px;
-
     display: flex;
     justify-content: left;
     align-items: center;
